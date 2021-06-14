@@ -68,13 +68,13 @@ class handDetector():
 
                 #Swear
                 if _4y < palmy and _12x > _11x and _8x < _11x and _16x <_11x and _20x < _11x:
-                    cv.putText(img, 'Fuck', (250, 70), cv.FONT_HERSHEY_SIMPLEX, 3, (255, 0, 255), 2)
+                    cv.putText(img, 'Swear', (250, 70), cv.FONT_HERSHEY_SIMPLEX, 3, (255, 0, 255), 2)
                 if _4y < palmy and _12x < _11x and _8x > _11x and _16x >_11x and _20x > _11x:
-                    cv.putText(img, 'Fuck', (250, 70), cv.FONT_HERSHEY_SIMPLEX, 3, (255, 0, 255), 2)
+                    cv.putText(img, 'Swear', (250, 70), cv.FONT_HERSHEY_SIMPLEX, 3, (255, 0, 255), 2)
                 if palmy < middley and _12y < _11y and _8y > _11y and _16y >_11y and _20y > _11y:
-                    cv.putText(img, 'Fuck', (250, 70), cv.FONT_HERSHEY_SIMPLEX, 3, (255, 0, 255), 2)
+                    cv.putText(img, 'Swear', (250, 70), cv.FONT_HERSHEY_SIMPLEX, 3, (255, 0, 255), 2)
                 if palmy > middley and _12y > _11y and _8y < _11y and _16y < _11y and _20y < _11y:
-                    cv.putText(img, 'Fuck', (250, 70), cv.FONT_HERSHEY_SIMPLEX, 3, (255, 0, 255), 2)
+                    cv.putText(img, 'Swear', (250, 70), cv.FONT_HERSHEY_SIMPLEX, 3, (255, 0, 255), 2)
 
                 #Okay
                 if abs(thumby - indexy) < 0.02:
