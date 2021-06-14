@@ -4,4 +4,4 @@ A small "project" to detect simple gestures which are thumb up and thumb down (l
 
 Tool: Opencv, mediapipe
 
-Edit: Added swear and okay gestures
+Edit: Added swear and okay gestures to another python file
