@@ -4,9 +4,9 @@ A small project to detect simple gestures which are thumb up and thumb down (lik
 
 Tool: Opencv, mediapipe
 
-Content: like_dislike_detection.py and hand_gesture.py detect gestures (~95% similar to each other) <br>
-         train_isPalmar.py trains a CNN model to detect palmar or dorsal, dataset: https://www.kaggle.com/shyambhu/hands-and-palm-images-dataset <br>
-         isPalmar_detection.py is to check palmar (a medium between hand_gesture.py and train_isPalmar.py) <br>
+Content: <br>- like_dislike_detection.py and hand_gesture.py detect gestures (~95% similar to each other) <br>
+         - train_isPalmar.py trains a CNN model to detect palmar or dorsal, dataset: https://www.kaggle.com/shyambhu/hands-and-palm-images-dataset <br>
+         - isPalmar_detection.py is to check palmar (a medium between hand_gesture.py and train_isPalmar.py) <br>
 
 Edit: Added swear and okay gestures to another python file
 
